@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.example.productcatlog.entity.Category;
 import com.example.productcatlog.service.CategoryService;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/categories")
 public class CategoryController {

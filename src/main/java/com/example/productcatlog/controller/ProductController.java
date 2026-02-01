@@ -9,6 +9,7 @@ import com.example.productcatlog.dto.ProductRequest;
 import com.example.productcatlog.entity.Product;
 import com.example.productcatlog.service.ProductService;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
